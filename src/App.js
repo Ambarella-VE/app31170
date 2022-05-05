@@ -23,7 +23,9 @@ function App() {
               }}>
 
                 <code>
-                  <pre>
+                  <pre style={{
+                    whiteSpace: "pre-wrap"
+                  }}>
 {`
   import NavBar from "./components/navBar/NavBar";
   \n
