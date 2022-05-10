@@ -40,7 +40,7 @@ export default function SideDrawer({
       <Divider />
       <List>
         <ListItem button>
-          <CartWidget quantity={10} />
+          <CartWidget quantity={11} />
         </ListItem>
       </List>
     </div>
