@@ -1,5 +1,6 @@
 import NavBar from "./components/navBar/NavBar";
 import ItemListContainer from "./components/itemListContainer/ItemListContainer";
+import ItemCount from "./components/itemCount/ItemCount";
 
 function App() {
   return (
@@ -46,6 +47,12 @@ function App() {
                 </code>
               </div>
           </ul>
+        </div>
+        <div>
+          <h2>
+            Este es mi ItemCount (responsive)
+          </h2>
+          <ItemCount initial={1} maxValue={8} />
         </div>
       </NavBar>
     </>
